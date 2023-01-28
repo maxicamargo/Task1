@@ -48,6 +48,9 @@ header>img{
     position: absolute;
     top: 260px; 
     left: 1040px;
+    border-width: 1px;
+    border-style: solid;
+    background: white;
 }
 
 header>nav{
@@ -59,7 +62,7 @@ header>nav{
 
 header>nav>a{
     display: block;
-    padding: 30px 0;;
+    padding: 30px 0;
 }
 
 header>nav>#activo{
@@ -76,9 +79,17 @@ main{
 main>section{
     margin-left: 200px;
     padding: 15px 0;
+}
 
+main>section>p{
+    text-indent: 20px;
+    padding-right: 100px;
 }
 
 #contact{
     display: none;
+}
+
+#parrafo_contacto{
+    text-indent: 0px;
 }
