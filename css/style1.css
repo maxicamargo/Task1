@@ -5,12 +5,6 @@
     font-family: 'Comic Sans MS';
 }
 
-/*
-body{
-    height: 0;
-}
-*/
-
 header{
     width: 1200px;
     margin: auto;
@@ -65,7 +59,7 @@ header>nav>a{
     padding: 30px 0;
 }
 
-header>nav>#activo{
+#activo{
     text-decoration: none;
     color: black;
 }
@@ -92,4 +86,8 @@ main>section>p{
 
 #parrafo_contacto{
     text-indent: 0px;
+}
+
+footer{
+    display: none;
 }
